@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Taxopark</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="istalgan_joydan">Istalgan joydan</string>
+    <string name="iltimos_tizimga_kirish_yoki_ro_yhatdan_o_tish_uchun_telefon_raqamingizni_kiriting">Iltimos, tizimga kirish yoki ro\'yhatdan o\'tish uchun telefon raqamingizni kiriting.</string>
+    <string name="telefon_raqamingiz">Telefon raqamingiz</string>
+    <string name="tizimga_kirish">Tizimga kirish</string>
+    <string name="telefon">Telefon</string>
+    <string name="davom_etish">Davom etish</string>
+    <string name="input_phone_number">Telefon raqamingizni kiriting!</string>
+    <string name="show_detail_input_code">telefon raqamiga 4 xonali sms kod yuborildi, ushbu kodni kiriting</string>
+    <string name="tasdiqlash">Tasdiqlash</string>
+    <string name="resend_sms">Qayta yuborish</string>
+    <string name="ma_lumotlarni_kiriting">Ma\'lumotlarni kiriting</string>
+    <string name="input">Kiriting..</string>
+    <string name="birthday">Tug\'ilgan sanangiz</string>
+    <string name="_10_10_2024">10.10.2024</string>
+    <string name="jinsingiz">Jinsingiz</string>
+    <string name="male">Erkak</string>
+    <string name="female">Ayol</string>
+
 </resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/intro_nav_graph"
+    app:startDestination="@id/introFragment">
+    <fragment
+        android:id="@+id/introFragment"
+        android:name="com.example.taxopark.presentation.splash.intro.IntroFragment"
+        android:label="IntroFragment" />
+    <fragment
+        android:id="@+id/confirmCodeFragment"
+        android:name="com.example.taxopark.presentation.login.confirm.ConfirmCodeFragment"
+        android:label="fragment_confirm_code"
+        tools:layout="@layout/fragment_confirm_code" />
+    <fragment
+        android:id="@+id/inputPhoneFragment"
+        android:name="com.example.taxopark.presentation.login.phone.InputPhoneFragment"
+        android:label="fragment_input_phone"
+        tools:layout="@layout/fragment_input_phone" />
+    <fragment
+        android:id="@+id/fillDataFragment"
+        android:name="com.example.taxopark.presentation.login.filldata.FillDataFragment"
+        android:label="fragment_fill_data"
+        tools:layout="@layout/fragment_fill_data" />
+</navigation>

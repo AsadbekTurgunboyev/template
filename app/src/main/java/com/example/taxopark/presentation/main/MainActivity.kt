@@ -1,7 +1,8 @@
-package com.example.taxopark
+package com.example.taxopark.presentation.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.taxopark.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

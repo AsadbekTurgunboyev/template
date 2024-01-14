@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/step_nav_graph"
+    app:startDestination="@id/fillPersonFragment">
+
+    <fragment
+        android:id="@+id/fillPersonFragment"
+        android:name="com.example.taxopark.presentation.login.filldata.fillperson.FillPersonFragment"
+        android:label="fragment_fill_person"
+        tools:layout="@layout/fragment_fill_person" />
+    <fragment
+        android:id="@+id/fillCarFragment"
+        android:name="com.example.taxopark.presentation.login.filldata.fillcar.FillCarFragment"
+        android:label="fragment_fill_car"
+        tools:layout="@layout/fragment_fill_car" />
+
+    <fragment
+        android:id="@+id/fillLicenseFragment"
+        android:name="com.example.taxopark.presentation.login.filldata.filllicense.FillLicenseFragment"
+        android:label="fragment_fill_license"
+        tools:layout="@layout/fragment_fill_license" />
+</navigation>

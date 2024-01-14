@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.login.filldata.fillperson.FillPersonFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:paddingTop="@dimen/_15sdp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kerakli hujjatlar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="@dimen/_7sdp"
+            android:text="Ma'lumotlaringizni tasdiqlash uchun me'yoriy hujjat suratlarini yuklang" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:clickable="true"
+
+                    android:focusable="true"
+                    android:foreground="?selectableItemBackground"
+                    android:background="@drawable/shape_add_img"
+                    android:layout_height="@dimen/_80sdp">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_margin="@dimen/_1sdp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:id="@+id/upload_selfie"
+                        android:foreground="?selectableItemBackground"
+                        app:cardCornerRadius="@dimen/_10sdp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_upload"
+                            android:layout_gravity="center"/>
+                        <ImageView
+                            android:id="@+id/upload_img_selfie"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            android:layout_height="match_parent"/>
+                    </com.google.android.material.card.MaterialCardView>
+
+
+
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Texpassport"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginStart="@dimen/_10sdp"
+
+                    android:background="@drawable/shape_add_img"
+                    android:layout_height="@dimen/_80sdp">
+
+
+
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_margin="@dimen/_1sdp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:id="@+id/upload_license"
+                        android:foreground="?selectableItemBackground"
+                        app:cardCornerRadius="@dimen/_10sdp"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_upload"
+                            android:layout_gravity="center"/>
+                        <ImageView
+                            android:id="@+id/upload_img_license"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            android:layout_height="match_parent"/>
+                    </com.google.android.material.card.MaterialCardView>
+
+                </FrameLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:text="Haydovchilik guvohnomasi"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:paddingTop="@dimen/_15sdp"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+
+                android:rotation="180"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_alignParentStart="true"
+                android:layout_margin="@dimen/_10sdp"
+                android:src="@drawable/ic_arrow"
+                app:backgroundTint="@color/icons"
+                app:fabSize="auto"
+                app:tint="#fff" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/next_detail_car_fbn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="end"
+                android:layout_marginStart="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginEnd="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:src="@drawable/ic_check"
+                app:backgroundTint="@color/primaryDark"
+                app:fabSize="auto"
+                app:tint="#fff" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
