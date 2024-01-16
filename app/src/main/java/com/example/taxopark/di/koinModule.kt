@@ -4,6 +4,7 @@ import com.example.taxopark.data.repository.MainRepositoryImpl
 import com.example.taxopark.domain.preference.UserPreferenceManager
 import com.example.taxopark.domain.repository.MainRepository
 import com.example.taxopark.domain.usecase.GetMainResponseUseCase
+import com.example.taxopark.presentation.login.filldata.fillcar.FillCarViewModel
 import com.example.taxopark.presentation.login.phone.InputPhoneViewModel
 import org.koin.android.ext.koin.androidContext
 import org.koin.androidx.viewmodel.dsl.viewModel
@@ -18,4 +19,5 @@ val koinModule = module {
     }
 
     viewModel{ InputPhoneViewModel(get())}
+    viewModel{FillCarViewModel(get())}
 }

@@ -1,18 +1,18 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimary">@color/primaryDark</item>
         <item name="colorPrimaryDark">@color/primaryDark</item>
         <item name="colorAccent">@color/primary</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
         <item name="radioButtonStyle">@style/Widget.App.RadioButton</item>
 
+        <item name="textInputStyle">@style/TextInputLayout</item>
         <item name="colorOnBackground">@color/background</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:statusBarColor">#54B962</item>
     </style>
-
 
     <style name="Theme.App.Starting" parent="Theme.SplashScreen">
         <item name="windowSplashScreenBackground">@android:color/black</item>

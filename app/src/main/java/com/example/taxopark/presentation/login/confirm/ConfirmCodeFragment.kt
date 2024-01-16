@@ -109,4 +109,9 @@ class ConfirmCodeFragment : Fragment() {
     private fun View.correct() {
         startAnimation(AnimationUtils.loadAnimation(context, R.anim.correct_anim))
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        timer.stop()
+    }
 }

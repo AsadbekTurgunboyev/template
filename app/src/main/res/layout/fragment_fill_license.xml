@@ -138,13 +138,13 @@
             android:layout_height="wrap_content">
 
             <com.google.android.material.floatingactionbutton.FloatingActionButton
-
-                android:rotation="180"
+                android:id="@+id/fbn_back"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"
                 android:layout_alignParentStart="true"
+                android:layout_gravity="end"
                 android:layout_margin="@dimen/_10sdp"
+                android:rotation="180"
                 android:src="@drawable/ic_arrow"
                 app:backgroundTint="@color/icons"
                 app:fabSize="auto"

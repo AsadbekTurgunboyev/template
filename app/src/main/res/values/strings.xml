@@ -19,5 +19,8 @@
     <string name="jinsingiz">Jinsingiz</string>
     <string name="male">Erkak</string>
     <string name="female">Ayol</string>
+    <string name="input_name">Ismingizni kiriting</string>
+    <string name="input_surname">Familyangizni kiriting</string>
+    <string name="input_birth">Tug\'ilgan kuningizni kiriting</string>
 
 </resources>

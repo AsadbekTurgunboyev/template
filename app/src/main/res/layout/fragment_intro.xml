@@ -72,6 +72,7 @@
             android:focusable="true"
             android:layout_width="@dimen/_50sdp"
             android:layout_height="@dimen/_50sdp"
+
             android:layout_gravity="center"
             android:background="@drawable/fbn_background"
             android:gravity="center">
